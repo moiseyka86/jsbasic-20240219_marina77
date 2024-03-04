@@ -4,7 +4,7 @@ function truncate(str, maxlength) {
     newstr = str.slice(0, (maxlength-1)) + "…";
   }
   else newstr=str;
-  alert(newstr);
+  return newstr;
 }
 truncate('Вот, что мне хотелось бы сказать на эту тему:', 20);
 truncate('Всем привет!', 20);

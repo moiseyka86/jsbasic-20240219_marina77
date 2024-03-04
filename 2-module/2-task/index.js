@@ -5,7 +5,7 @@ let obj ={
 }
 function isEmpty(obj) {
  let massiv= Object.keys(obj)
- if (massiv.length > 0) return true
+ if (massiv.length == 0) return true
   else return false;
 }
 isEmpty(obj);
