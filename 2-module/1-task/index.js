@@ -12,8 +12,8 @@ function sumSalary(salaries) {
   for (let n in salaries) {
     if ((typeof salaries[n]=='number') && isFinite(salaries[n])){
       sum=sum + salaries[n];  
-      return sum;   
       }
+      return sum;   
   }  
 }
 sumSalary(salaries);

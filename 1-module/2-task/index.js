@@ -1,5 +1,5 @@
 function isValid(name) {
-  if ((name.length >= 4) && !name.includes(" ") && (typeof name=='string')) {
+  if ((typeof name=='string') && (name.length >= 4) && !name.includes(" ")) {
     return true;   
   }
    else return false;
