@@ -5,5 +5,4 @@ function filterRange(arr, a, b){
 newArr = arr.filter(item => item >= a && item <= b);
 return(newArr);
 }
-let filtered = filterRange(arr, 1, 4);
-alert(filtered);
+filterRange(arr, 1, 4);

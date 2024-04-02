@@ -37,4 +37,3 @@ function showSalary(users, age){
   let userStr=userNameBalance.join('\n');
   return userStr; 
 };
-showSalary(users, 21);
